@@ -4,6 +4,9 @@
     <Filter Include="MendiEngine">
       <UniqueIdentifier>{08F33E33-74A8-B728-FD9C-B1FF6951AE2C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MendiEngine\Events">
+      <UniqueIdentifier>{ECE5130C-D8C9-D461-412A-CFB42D2DBFE3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MendiEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\MendiEngine\EntryPoint.h">
       <Filter>MendiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MendiEngine\Events\ApplicationEvent.h">
+      <Filter>MendiEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MendiEngine\Events\Event.h">
+      <Filter>MendiEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MendiEngine\Events\KeyEvent.h">
+      <Filter>MendiEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MendiEngine\Events\MouseEvent.h">
+      <Filter>MendiEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\MendiEngine\Log.h">
       <Filter>MendiEngine</Filter>
