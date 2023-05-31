@@ -1,42 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="MendiEngine">
+      <UniqueIdentifier>{08F33E33-74A8-B728-FD9C-B1FF6951AE2C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\MendiEngine\Core.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
+    <ClInclude Include="src\MendiEngine.h" />
     <ClInclude Include="src\MendiEngine\Application.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>MendiEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\MendiEngine.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="src\MendiEngine\Core.h">
+      <Filter>MendiEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\MendiEngine\EntryPoint.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>MendiEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\MendiEngine\Log.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>MendiEngine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MendiEngine\Application.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>MendiEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\MendiEngine\Log.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>MendiEngine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
