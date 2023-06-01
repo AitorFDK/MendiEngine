@@ -2,9 +2,6 @@
 
 #include "MendiEngine/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace MendiEngine {
 
 	// Events are currently blocking, we need to save it in buffer and dispatch it on Event stage.

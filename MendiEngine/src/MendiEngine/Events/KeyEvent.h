@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace MendiEngine {
 
 	class MENDI_ENGINE_API KeyEvent : public Event

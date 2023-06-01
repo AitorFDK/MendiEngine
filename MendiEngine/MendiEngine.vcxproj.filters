@@ -34,6 +34,7 @@
     <ClInclude Include="src\MendiEngine\Log.h">
       <Filter>MendiEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\mepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MendiEngine\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\MendiEngine\Log.cpp">
       <Filter>MendiEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\mepch.cpp" />
   </ItemGroup>
 </Project>
